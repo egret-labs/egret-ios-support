@@ -1,0 +1,29 @@
+{
+    "template_name": "HelloEgret",
+    "template": {
+        "source": [
+            "proj.ios",
+            "Resources"
+        ]
+    },
+    "rename_tree": {
+        "content": [
+            "proj.ios/HelloEgret.xcodeproj/project.pbxproj"
+        ],
+        "file_name": [
+            "proj.ios/HelloEgret.xcodeproj",
+            "proj.ios/HelloEgret"
+        ]
+    },
+    "game": {
+        "target": [
+            "Resources"
+        ],
+        "h5_tree": [
+            "bin-debug/",
+            "launcher/",
+            "resource/",
+            "src/"
+        ]
+    }
+}
