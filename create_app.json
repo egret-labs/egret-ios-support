@@ -18,12 +18,6 @@
     "game": {
         "target": [
             "Resources"
-        ],
-        "h5_tree": [
-            "bin-debug/",
-            "launcher/",
-            "resource/",
-            "src/"
         ]
     }
 }
