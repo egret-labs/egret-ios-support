@@ -1,6 +1,6 @@
 ##Egret IOS Support Release Notes 
 最近更新时间：2014年7月8日
-###Egret IOS Support 1.0.1 RC Release Note
+###Egret IOS Support 1.0.1 (RC1) Release Note
 
 - **[新特性]** 增加IOS支持。提供了全新的IOS项目模板，以便使用egret新的create_app命令创建新Xcode项目。
 
