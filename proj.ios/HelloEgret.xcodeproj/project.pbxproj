@@ -20,10 +20,7 @@
 		2BB0B7911962595B00AB747B /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BB0B77F1961799C00AB747B /* AudioToolbox.framework */; };
 		2BB0B7921962598600AB747B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BB0B7471961788100AB747B /* CoreGraphics.framework */; };
 		2BB0B793196259A100AB747B /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BB0B77D1961798D00AB747B /* libz.dylib */; };
-		B657A2E21969431A00CE175D /* bin-debug in Resources */ = {isa = PBXBuildFile; fileRef = B657A2DE1969431A00CE175D /* bin-debug */; };
-		B657A2E31969431A00CE175D /* launcher in Resources */ = {isa = PBXBuildFile; fileRef = B657A2DF1969431A00CE175D /* launcher */; };
-		B657A2E41969431A00CE175D /* resource in Resources */ = {isa = PBXBuildFile; fileRef = B657A2E01969431A00CE175D /* resource */; };
-		B657A2E51969431A00CE175D /* src in Resources */ = {isa = PBXBuildFile; fileRef = B657A2E11969431A00CE175D /* src */; };
+		B638264219765A8D004CFA40 /* egret-game in Resources */ = {isa = PBXBuildFile; fileRef = B638264119765A8C004CFA40 /* egret-game */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,10 +41,7 @@
 		2BB0B77F1961799C00AB747B /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		2BB0B786196181A200AB747B /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		2BB0B78F196258A600AB747B /* libEgretFrameworkNative.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libEgretFrameworkNative.a; path = egret_libs/ios/libEgretFrameworkNative.a; sourceTree = "<group>"; };
-		B657A2DE1969431A00CE175D /* bin-debug */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "bin-debug"; path = "../Resources/bin-debug"; sourceTree = "<group>"; };
-		B657A2DF1969431A00CE175D /* launcher */ = {isa = PBXFileReference; lastKnownFileType = folder; name = launcher; path = ../Resources/launcher; sourceTree = "<group>"; };
-		B657A2E01969431A00CE175D /* resource */ = {isa = PBXFileReference; lastKnownFileType = folder; name = resource; path = ../Resources/resource; sourceTree = "<group>"; };
-		B657A2E11969431A00CE175D /* src */ = {isa = PBXFileReference; lastKnownFileType = folder; name = src; path = ../Resources/src; sourceTree = "<group>"; };
+		B638264119765A8C004CFA40 /* egret-game */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "egret-game"; path = "../Resources/egret-game"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,10 +124,7 @@
 		2BB0B7761961794000AB747B /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				B657A2DE1969431A00CE175D /* bin-debug */,
-				B657A2DF1969431A00CE175D /* launcher */,
-				B657A2E01969431A00CE175D /* resource */,
-				B657A2E11969431A00CE175D /* src */,
+				B638264119765A8C004CFA40 /* egret-game */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -190,12 +181,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B657A2E41969431A00CE175D /* resource in Resources */,
 				2BB0B7501961788100AB747B /* InfoPlist.strings in Resources */,
+				B638264219765A8D004CFA40 /* egret-game in Resources */,
 				2BB0B7581961788100AB747B /* Images.xcassets in Resources */,
-				B657A2E51969431A00CE175D /* src in Resources */,
-				B657A2E31969431A00CE175D /* launcher in Resources */,
-				B657A2E21969431A00CE175D /* bin-debug in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

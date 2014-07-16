@@ -17,7 +17,7 @@
     },
     "game": {
         "target": [
-            "Resources"
+            "Resources/egret-game"
         ]
     }
 }
