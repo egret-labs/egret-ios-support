@@ -20,6 +20,7 @@
 		2BB0B7911962595B00AB747B /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BB0B77F1961799C00AB747B /* AudioToolbox.framework */; };
 		2BB0B7921962598600AB747B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BB0B7471961788100AB747B /* CoreGraphics.framework */; };
 		2BB0B793196259A100AB747B /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BB0B77D1961798D00AB747B /* libz.dylib */; };
+		B631807E1987B75B001A1E0B /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6317F431987AA62001A1E0B /* JavaScriptCore.framework */; };
 		B638264219765A8D004CFA40 /* egret-game in Resources */ = {isa = PBXBuildFile; fileRef = B638264119765A8C004CFA40 /* egret-game */; };
 /* End PBXBuildFile section */
 
@@ -41,6 +42,7 @@
 		2BB0B77F1961799C00AB747B /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		2BB0B786196181A200AB747B /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		2BB0B78F196258A600AB747B /* libEgretFrameworkNative.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libEgretFrameworkNative.a; path = egret_libs/ios/libEgretFrameworkNative.a; sourceTree = "<group>"; };
+		B6317F431987AA62001A1E0B /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		B638264119765A8C004CFA40 /* egret-game */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "egret-game"; path = "../Resources/egret-game"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -49,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B631807E1987B75B001A1E0B /* JavaScriptCore.framework in Frameworks */,
 				2BB0B790196258A600AB747B /* libEgretFrameworkNative.a in Frameworks */,
 				2BB0B787196181A200AB747B /* AVFoundation.framework in Frameworks */,
 				2BB0B7911962595B00AB747B /* AudioToolbox.framework in Frameworks */,
@@ -86,6 +89,7 @@
 		2BB0B7441961788100AB747B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B6317F431987AA62001A1E0B /* JavaScriptCore.framework */,
 				2BB0B78F196258A600AB747B /* libEgretFrameworkNative.a */,
 				2BB0B786196181A200AB747B /* AVFoundation.framework */,
 				2BB0B77F1961799C00AB747B /* AudioToolbox.framework */,
