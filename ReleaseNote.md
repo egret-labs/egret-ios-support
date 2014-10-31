@@ -1,4 +1,19 @@
 ##Egret iOS Support Release Notes 
+---
+
+### Egret iOS Support 1.1.2 Release Notes
+更新时间：2014年10月31日
+- **[新特性]** 更新JavaScriptCore接口为C-api
+- **[新特性]** 增加文本输入功能。
+- **[新特性]** 增加EGTView接口
+- **[新特性]** 增加全局ColorTransform接口
+- **[新特性]** 增加设置全局Blend模式接口。
+- **[改进]** 使用裁切替换矩形蒙板的性能
+- **[改进]** V8的垃圾回收
+- **[变更]** setGlobalAlpha接口
+- **[修复]** 下载中游戏退出的崩溃BUG
+- **[修复]** 修复若干BUG
+- **[删除]** SpiderMonkey支持
 
 ### Egret iOS Support 1.0 (Final) Release Note
 2014年8月8日
