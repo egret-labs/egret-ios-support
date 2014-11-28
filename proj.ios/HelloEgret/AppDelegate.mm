@@ -40,12 +40,24 @@ public:
     [[UIApplication sharedApplication] setStatusBarHidden: YES];
 }
 
+- (void)runGame {
+    NSString *egretRoot = [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) objectAtIndex:0];
+    NSString *gameId = @"local";
+    NSString *gameUrl = @"";
+#ifndef USE_GAME_ZIP
+    NSString *loaderUrl = @"";
+#else
+    NSString *loaderUrl = @"game_code.zip";
+#endif
+    [[EgretRuntime getInstance] runWithRoot:egretRoot id:gameId loader:loaderUrl url:gameUrl];
+}
+
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     
     [self initUIWindow];
-    [[EgretRuntime getInstance] run];
+    [self runGame];
     
     ExternalInterface::run();
     ExternalInterface::addCallback("TestExternalInterface", new ExternalInterfaceProcess() );
