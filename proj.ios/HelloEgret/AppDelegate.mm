@@ -9,6 +9,9 @@
 #import "ExternalInterface.h"
 
 
+//TODO: egret publish之后，修改以下常量为生成的game_code名
+#define EGRET_PUBLISH_ZIP @"game_code_xxxx.zip"
+
 class ExternalInterfaceProcess :public IExternalInterface{
     
 public:
@@ -31,7 +34,7 @@ public:
     // Use RootViewController manage EAGLView
     viewController = [[ViewController alloc] initWithNibName:nil bundle:nil];
     viewController.extendedLayoutIncludesOpaqueBars = YES;
-    
+
     [[EgretRuntime getInstance] initWithRect:[self.window bounds] inViewController:viewController];
     // Set RootViewController to window
     [self.window addSubview: viewController.view];
@@ -40,16 +43,37 @@ public:
     [[UIApplication sharedApplication] setStatusBarHidden: YES];
 }
 
+- (void)setLoaderUrl:(int)mode {
+    switch (mode) {
+        case 2:
+            // local DEBUG mode
+            // 本地DEBUG模式，发布请使用0本地zip，或者1网络获取zip
+            loaderUrl = @"";
+            updateUrl = @"";
+            break;
+        case 1:
+            // http request zip RELEASE mode, use permission INTERNET
+            // 请求网络zip包发布模式，需要权限 INTERNET
+            updateUrl = @"http://wwww.example.com";
+            loaderUrl = [updateUrl stringByAppendingString:EGRET_PUBLISH_ZIP];
+            break;
+        default:
+            // local zip RELEASE mode, default mode, `egret publish -compile --runtime native`
+            // 私有空间zip包发布模式, 默认模式, `egret publish -compile --runtime native`
+            updateUrl = @"";
+            loaderUrl = EGRET_PUBLISH_ZIP;
+            break;
+    }
+}
+
 - (void)runGame {
-    NSString *egretRoot = [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) objectAtIndex:0];
-    NSString *gameId = @"local";
-    NSString *gameUrl = @"";
-#ifndef USE_GAME_ZIP
-    NSString *loaderUrl = @"";
-#else
-    NSString *loaderUrl = @"game_code.zip";
-#endif
-    [[EgretRuntime getInstance] runWithRoot:egretRoot id:gameId loader:loaderUrl url:gameUrl];
+    egretRoot = [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) objectAtIndex:0];
+    gameId = @"local";
+
+    //TODO: 2 for debug, 1 for network zip(release), 0 for local zip (release)  
+    [self setLoaderUrl:2];
+
+    [[EgretRuntime getInstance] runWithRoot:egretRoot id:gameId loader:loaderUrl update:updateUrl];
 }
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
