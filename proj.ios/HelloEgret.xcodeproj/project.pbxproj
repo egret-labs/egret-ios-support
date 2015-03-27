@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B6B4E04B1AC577630015D2E7 /* libEgretLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B6B4E04A1AC577630015D2E7 /* libEgretLib.a */; };
 		B6C620401A01E3BC00A47638 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B6C6203F1A01E3BC00A47638 /* main.m */; };
 		B6C620431A01E3BC00A47638 /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = B6C620421A01E3BC00A47638 /* AppDelegate.mm */; };
 		B6C620461A01E3BC00A47638 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6C620451A01E3BC00A47638 /* ViewController.m */; };
 		B6C620491A01E3BC00A47638 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6C620471A01E3BC00A47638 /* Main.storyboard */; };
 		B6C6204B1A01E3BC00A47638 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6C6204A1A01E3BC00A47638 /* Images.xcassets */; };
 		B6C620761A02082100A47638 /* egret-game in Resources */ = {isa = PBXBuildFile; fileRef = B6C620751A02082100A47638 /* egret-game */; };
-		B6C620791A02087800A47638 /* libEgretFrameworkNative.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B6C620781A02087800A47638 /* libEgretFrameworkNative.a */; };
 		B6C620801A020A9E00A47638 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6C6207F1A020A9E00A47638 /* JavaScriptCore.framework */; };
 		B6C620821A020AB500A47638 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6C620811A020AB500A47638 /* AVFoundation.framework */; };
 		B6C620851A020AC300A47638 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6C620831A020AC300A47638 /* OpenAL.framework */; };
@@ -27,6 +27,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B6B4E04A1AC577630015D2E7 /* libEgretLib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libEgretLib.a; path = egret_libs/libEgretLib.a; sourceTree = "<group>"; };
 		B6C6203A1A01E3BC00A47638 /* HelloEgret.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloEgret.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6C6203E1A01E3BC00A47638 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B6C6203F1A01E3BC00A47638 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -37,7 +38,6 @@
 		B6C620481A01E3BC00A47638 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B6C6204A1A01E3BC00A47638 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		B6C620751A02082100A47638 /* egret-game */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "egret-game"; path = "../Resources/egret-game"; sourceTree = "<group>"; };
-		B6C620781A02087800A47638 /* libEgretFrameworkNative.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libEgretFrameworkNative.a; path = egret_libs/libEgretFrameworkNative.a; sourceTree = "<group>"; };
 		B6C6207F1A020A9E00A47638 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		B6C620811A020AB500A47638 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		B6C620831A020AC300A47638 /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenAL.framework; path = System/Library/Frameworks/OpenAL.framework; sourceTree = SDKROOT; };
@@ -55,6 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6B4E04B1AC577630015D2E7 /* libEgretLib.a in Frameworks */,
 				B6C620921A020B4E00A47638 /* libz.dylib in Frameworks */,
 				B6C620901A020B2700A47638 /* UIKit.framework in Frameworks */,
 				B6C6208E1A020B1600A47638 /* AudioToolbox.framework in Frameworks */,
@@ -65,7 +66,6 @@
 				B6C620851A020AC300A47638 /* OpenAL.framework in Frameworks */,
 				B6C620861A020AC300A47638 /* OpenGLES.framework in Frameworks */,
 				B6C620801A020A9E00A47638 /* JavaScriptCore.framework in Frameworks */,
-				B6C620791A02087800A47638 /* libEgretFrameworkNative.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -129,7 +129,7 @@
 				B6C6208B1A020AEC00A47638 /* CoreGraphics.framework */,
 				B6C620871A020AD300A47638 /* Foundation.framework */,
 				B6C6207F1A020A9E00A47638 /* JavaScriptCore.framework */,
-				B6C620781A02087800A47638 /* libEgretFrameworkNative.a */,
+				B6B4E04A1AC577630015D2E7 /* libEgretLib.a */,
 				B6C620911A020B4E00A47638 /* libz.dylib */,
 				B6C620831A020AC300A47638 /* OpenAL.framework */,
 				B6C620841A020AC300A47638 /* OpenGLES.framework */,
@@ -314,7 +314,7 @@
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
-					"$(PROJECT_DIR)/egret_libs/include/EgretFrameworkNative/",
+					"$(PROJECT_DIR)/egret_libs/include",
 				);
 				INFOPLIST_FILE = HelloEgret/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -333,7 +333,7 @@
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
-					"$(PROJECT_DIR)/egret_libs/include/EgretFrameworkNative/",
+					"$(PROJECT_DIR)/egret_libs/include",
 				);
 				INFOPLIST_FILE = HelloEgret/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
