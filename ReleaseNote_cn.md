@@ -1,6 +1,13 @@
 ##Egret iOS Support Release Notes 
 ---
 
+### Egret iOS Support 1.7.1 Release Notes
+---
+更新时间：2015年05月07日
+- **[修复]** 按HOME键崩溃
+- **[修复]** 应用重新进入前台时播放音乐的bug
+- **[修复]** 输入文字bug
+
 ### Egret iOS Support 1.7.0 Release Notes
 --
 更新时间：2015年04月24日
