@@ -1,6 +1,13 @@
 ##Egret iOS Support Release Notes
 ---
 
+### Egret iOS Support 1.7.1 Release Notes
+--
+Updated: May, 07 2015
+- **[FIX]** crash when HOME button is pressed
+- **[FIX]** background music plays when entering foreground
+- **[FIX]** text input bug
+
 ### Egret iOS Support 1.7.0 Release Notes
 --
 Updated: April, 24 2015
