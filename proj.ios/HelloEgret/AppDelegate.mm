@@ -45,10 +45,17 @@ public:
 
 - (void)setLoaderUrl:(int)mode {
     switch (mode) {
-        case 2:
+        case 3:
             // local DEBUG mode
             // 本地DEBUG模式，发布请使用0本地zip，或者1网络获取zip
             loaderUrl = @"";
+            updateUrl = @"";
+            break;
+        case 2:
+            // http request game configure file, refer to *egret.json*
+            //     in project
+            // 请求服务器配置文件，请参考工程中的egret.json来部署
+            loaderUrl = @"http://www.example.com/egret.json";
             updateUrl = @"";
             break;
         case 1:
@@ -70,8 +77,8 @@ public:
     egretRoot = [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) objectAtIndex:0];
     gameId = @"local";
 
-    //TODO: 2 for debug, 1 for network zip(release), 0 for local zip (release)  
-    [self setLoaderUrl:2];
+    // TODO update your load mode
+    [self setLoaderUrl:3];
 
     [[EgretRuntime getInstance] runWithRoot:egretRoot id:gameId loader:loaderUrl update:updateUrl];
 }
@@ -91,23 +98,28 @@ public:
 - (void)applicationWillResignActive:(UIApplication *)application {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
     // Use this method to pause ongoing tasks, disable timers, and throttle down OpenGL ES frame rates. Games should use this method to pause the game.
+    [[EgretRuntime getInstance] onPause];
 }
 
 - (void)applicationDidEnterBackground:(UIApplication *)application {
     // Use this method to release shared resources, save user data, invalidate timers, and store enough application state information to restore your application to its current state in case it is terminated later.
     // If your application supports background execution, this method is called instead of applicationWillTerminate: when the user quits.
+    [[EgretRuntime getInstance] onPause];
 }
 
 - (void)applicationWillEnterForeground:(UIApplication *)application {
     // Called as part of the transition from the background to the inactive state; here you can undo many of the changes made on entering the background.
+    [[EgretRuntime getInstance] onResume];
 }
 
 - (void)applicationDidBecomeActive:(UIApplication *)application {
     // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
+    [[EgretRuntime getInstance] onResume];
 }
 
 - (void)applicationWillTerminate:(UIApplication *)application {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+    [[EgretRuntime getInstance] onPause];
 }
 
 @end

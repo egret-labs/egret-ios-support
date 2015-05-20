@@ -1,6 +1,14 @@
 ##Egret iOS Support Release Notes
 ---
 
+### Egret iOS Support 1.7.2 Release Notes
+---
+Updated: May, 20 2015
+- **[ADD]** Start game via remote configure file
+- **[ADD]** game options
+- **[UPDATE]** new JavaScriptCore framework
+- **[UPDATE]** new Math library
+
 ### Egret iOS Support 1.7.1 Release Notes
 --
 Updated: May, 07 2015

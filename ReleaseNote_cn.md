@@ -1,6 +1,14 @@
 ##Egret iOS Support Release Notes 
 ---
 
+### Egret iOS Support 1.7.2 Release Notes
+---
+更新时间：2015年05月20日
+- **[新特性]** 使用网络设置文件启动游戏
+- **[新特性]** 游戏设置项
+- **[更新]** 使用新的JavaScriptCore框架
+- **[更新]** 使用新的Math库
+
 ### Egret iOS Support 1.7.1 Release Notes
 ---
 更新时间：2015年05月07日
