@@ -1,9 +1,27 @@
 ##Egret iOS Support Release Notes 
 ---
 
+### Egret iOS Support 2.0.0 Release Notes
+---
+更新时间：2015年06月18日
+
+
+- **[新特性]** 支持WebSocket TypedArray流传输
+- **[新特性]** 支持游戏包加密
+- **[新特性]** 支持网络设置文件启动游戏
+- **[新特性]** 支持游戏设置项读取和保存
+- **[更新]** 使用新的JavaScriptCore框架
+- **[更新]** 使用新的Graphics接口
+- **[更新]** 使用新的Math库
+- **[修复]** iOS7上，旧的JavaScriptCore不支持TypedArray的问题
+- **[修复]** 按HOME键小概率崩溃
+- **[修复]** 应用重新进入前台时播放音乐的bug
+- **[修复]** 输入文字bug
+
 ### Egret iOS Support 1.7.2 Release Notes
 ---
 更新时间：2015年05月20日
+
 - **[新特性]** 使用网络设置文件启动游戏
 - **[新特性]** 游戏设置项
 - **[更新]** 使用新的JavaScriptCore框架
@@ -12,14 +30,17 @@
 ### Egret iOS Support 1.7.1 Release Notes
 ---
 更新时间：2015年05月07日
+
 - **[修复]** 按HOME键崩溃
 - **[修复]** 应用重新进入前台时播放音乐的bug
 - **[修复]** 输入文字bug
 
 ### Egret iOS Support 1.7.0 Release Notes
---
+---
 更新时间：2015年04月24日
+
 (注：1.7.0为1.6.1到1.6.2CE版本的稳定版本)
+
 - **[新特性]** 支持iOS 8.3
 - **[新特性]** 新增log级别的控制接口
 - **[新特性]** 增加RenderTexture
@@ -43,8 +64,9 @@
 - 按HOME键小概率crash（紧急）
 
 ### Egret iOS support 1.6.2 Release Notes
---
+---
 更新时间：2015年04月09日
+
 - **[新特性]** 支持iOS 8.3
 - **[改进]** 增强渲染性能
 - **[修复]** 其它若干bug，提升稳定性
@@ -56,6 +78,7 @@
 ###Egret iOS Support 1.6.1 Release Notes
 --
 更新时间：2015年03月27日
+
 - **[新特性]** 新增log级别的控制接口
 - **[新特性]** 增加RenderTexture
 - **[新特性]** 更明确的文件操作
@@ -72,9 +95,10 @@
 - **[修复]** 解决graphics旋转显示不正确的问题。
 - **[修复]** 蒙板位置错误的bug
 
-###Egret iOS Support 1.1.4 Release Notes
-更新时间：2014年11月28日
+### Egret iOS Support 1.1.4 Release Notes
 ---
+更新时间：2014年11月28日
+
 - **[新特性]** 增加本地游戏以zip包的方式发布
 - **[改进]** 游戏文件管理模块
 - **[改进]** 重构EgretRuntime
@@ -88,6 +112,7 @@
 
 ### Egret iOS Support 1.1.2 Release Notes
 更新时间：2014年10月31日
+
 - **[新特性]** 更新JavaScriptCore接口为C-api
 - **[新特性]** 增加文本输入功能。
 - **[新特性]** 增加EGTView接口
