@@ -1,15 +1,11 @@
 {
     "template_name": "HelloEgret",
     "template": {
-        "source": [
-            "proj.ios",
-            "Resources"
-        ]
+        "zip": "egret_ios_template.zip"
     },
     "rename_tree": {
         "content": [
-            "proj.ios/HelloEgret.xcodeproj/project.pbxproj",
-            "proj.ios/HelloEgret.xcodeproj/project.xcwork"
+            "proj.ios/HelloEgret.xcodeproj/project.pbxproj"
         ],
         "file_name": [
             "proj.ios/HelloEgret.xcodeproj",
