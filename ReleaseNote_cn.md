@@ -1,6 +1,14 @@
 ##Egret iOS Support Release Notes 
 ---
 
+### Egret iOS Support 2.0.1 Release Notes
+---
+更新时间：2015年07月03日
+
+- **[新特性]** 支持iOS 8.4
+- **[修复]** 加载加密游戏包错误
+- **[修复]** 进入后台崩溃问题
+
 ### Egret iOS Support 2.0.0 Release Notes
 ---
 更新时间：2015年06月18日
