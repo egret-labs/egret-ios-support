@@ -5,26 +5,26 @@
 ---
 Updated: July, 16 2014
 
-- **[Add]** Support WebSocket TypeArray stream
+- **[Add]** Support WebSocket TypedArray streaming
 - **[Add]** Support game package encryption
-- **[Add]** Support starting game by network configuration
+- **[Add]** Support game starting by network configuration
 - **[Add]** Support saving and loading game settings
 - **[Add]** Support iOS 8.4
 - **[Update]** New JavaScriptCore framework
 - **[Update]** New graphics interface
-- **[Update]** New maths library
+- **[Update]** New math library
 - **[Update]** New project template
-- **[Fix]** Fix carsh of app entering background
-- **[Fix]** Fix bug of music is played incorrectly when app re-enters foreground
-- **[Fix]** Fix bug of input text
+- **[Fix]** Bug fix for crashing app when entering background
+- **[Fix]** Bug fix for music playing incorrectly when app re-enters foreground
+- **[Fix]** Bug fix for input text
 
 ### Egret iOS Support 2.0.1 Release Notes
 ---
 Updated: July, 3 2014
 
-- **[Add]** iOS 8.4 support
-- **[Fix]** Bug loading encrypted game package
-- **[Fix]** Crash application entering background
+- **[Add]** Support iOS 8.4
+- **[Fix]** Bug fix for loading encrypted game package
+- **[Fix]** Bug fix for crashing app when entering background
 
 ### Egret iOS Support 2.0.0 Release Notes
 ---
