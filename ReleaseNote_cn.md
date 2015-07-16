@@ -1,6 +1,22 @@
 ##Egret iOS Support Release Notes 
 ---
 
+### Egret iOS Support 2.0 Final Release Notes
+---
+更新时间：2015年07月16日
+
+- **[新特性]** 支持WebSocket TypedArray流传输
+- **[新特性]** 支持游戏包加密
+- **[新特性]** 支持网络设置文件启动游戏
+- **[新特性]** 支持游戏设置项读取和保存
+- **[新特性]** 支持iOS 8.4
+- **[更新]** 使用新的JavaScriptCore框架
+- **[更新]** 使用新的Graphics接口
+- **[更新]** 使用新的Math库
+- **[更新]** 使用新的项目模版
+- **[修复]** 进入后台崩溃问题
+- **[修复]** 输入文字bug
+
 ### Egret iOS Support 2.0.1 Release Notes
 ---
 更新时间：2015年07月03日

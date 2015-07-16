@@ -1,24 +1,42 @@
 ##Egret iOS Support Release Notes
 ---
+
+### Egret iOS Support 2.0 Final Release Notes
+---
+Updated: July, 16 2014
+
+- **[Add]** Support WebSocket TypedArray streaming
+- **[Add]** Support game package encryption
+- **[Add]** Support game starting by network configuration
+- **[Add]** Support saving and loading game settings
+- **[Add]** Support iOS 8.4
+- **[Update]** New JavaScriptCore framework
+- **[Update]** New graphics interface
+- **[Update]** New math library
+- **[Update]** New project template
+- **[Fix]** Bug fix for crashing app when entering background
+- **[Fix]** Bug fix for music playing incorrectly when app re-enters foreground
+- **[Fix]** Bug fix for input text
+
 ### Egret iOS Support 2.0.1 Release Notes
 ---
-Updated: Jnly, 3 2014
+Updated: July, 3 2014
 
-- **[Add]** iOS 8.4 support
-- **[Fix]** Bug loading encrypted game package
-- **[Fix]** Crash application entering background
+- **[Add]** Support iOS 8.4
+- **[Fix]** Bug fix for loading encrypted game package
+- **[Fix]** Bug fix for crashing app when entering background
 
 ### Egret iOS Support 2.0.0 Release Notes
 ---
 Updated: June, 18 2015
 
-- **[Add]** Support WebSocket TypedArray stream transfer. 
+- **[Add]** Support WebSocket TypedArray stream
 - **[Add]** Support game package encryption 
 - **[Add]** Support starting game by reading configuration file from network
 - **[Add]** Support reading and storing game settings.
 - **[Update]** New JavaScriptCore framework is used.
-- **[Update]** New Graphics interface is used.
-- **[Update]** New Match library is used.
+- **[Update]** New graphics interface is used.
+- **[Update]** New maths library is used.
 - **[Fix]** The problem that old JavaScriptCore does not support TypedArray on iOS7
 - **[Fix]** Slight crash probability when pressing HOME button
 - **[Fix]** The bug that music is played when application re-enters front end. 
