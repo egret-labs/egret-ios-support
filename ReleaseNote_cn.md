@@ -1,6 +1,13 @@
 ##Egret iOS Support Release Notes 
 ---
 
+### Egret iOS Support 2.0.3 Release Notes
+---
+更新时间：2015年07月31日
+
+- **[修复]** 包含了错误的库文件
+- **[修复]** 若干bug，提高稳定性
+
 ### Egret iOS Support 2.0 Final Release Notes
 ---
 更新时间：2015年07月16日

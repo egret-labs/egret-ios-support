@@ -1,6 +1,13 @@
 ##Egret iOS Support Release Notes
 ---
 
+### Egret iOS Support 2.0.3 Release Notes
+---
+Updated: July, 31 2014
+
+- **[FIX]** Bug fix for containing incorrect library files
+- **[FIX]** Bug fix for improving stability
+
 ### Egret iOS Support 2.0 Final Release Notes
 ---
 Updated: July, 16 2014
