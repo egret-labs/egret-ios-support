@@ -1,6 +1,14 @@
 ##Egret iOS Support Release Notes 
 ---
 
+### Egret iOS Support 2.0.4 Release Notes
+---
+更新时间：2015年08月14日
+
+- **[新特性]** 增加内购模块
+- **[更新]** 更新模版
+- **[修复]** 若干bug，提高稳定性
+
 ### Egret iOS Support 2.0.3 Release Notes
 ---
 更新时间：2015年07月31日
