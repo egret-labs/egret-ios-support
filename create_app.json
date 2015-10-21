@@ -5,7 +5,8 @@
     },
     "rename_tree": {
         "content": [
-            "proj.ios/HelloEgret.xcodeproj/project.pbxproj"
+            "proj.ios/HelloEgret.xcodeproj/project.pbxproj",
+            "proj.ios/HelloEgret/LaunchScreen.storyboard"
         ],
         "file_name": [
             "proj.ios/HelloEgret.xcodeproj",
