@@ -1,7 +1,7 @@
 ##Egret iOS Support Release Notes
 ---
 
-### Egret iOS Support 2.5.0 Release Notes
+### Egret iOS Support 2.5.1 Release Notes
 ---
 Updated: October, 23 2015
 - **[Add]** Support iOS 9.0+

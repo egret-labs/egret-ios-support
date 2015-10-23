@@ -1,7 +1,7 @@
 ##Egret iOS Support Release Notes 
 ---
 
-### Egret iOS Support 2.5.0 Release Notes
+### Egret iOS Support 2.5.1 Release Notes
 ---
 更新时间：2015年10月23日
 - **[新特性]** 添加对Egret Engine v2.5的支持。
