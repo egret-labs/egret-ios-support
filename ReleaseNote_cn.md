@@ -1,6 +1,17 @@
 ##Egret iOS Support Release Notes 
 ---
 
+### Egret iOS Support 2.5.0 Release Notes
+---
+更新时间：2015年10月23日
+- **[新特性]** 添加对Egret Engine v2.5的支持。
+- **[新特性]** 添加对iOS 9的支持。
+- **[新特性]** 添加对xml的运行时解析。
+- **[新特性]** 添加Nest支持
+- **[修复]** 修复生命周期造成的crash
+- **[修复]** 修复localStorage相关BUG。
+- **[改进]** 增强稳定性。
+
 ### Egret iOS Support 2.0.4 Release Notes
 ---
 更新时间：2015年08月14日

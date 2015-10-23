@@ -1,6 +1,17 @@
 ##Egret iOS Support Release Notes
 ---
 
+### Egret iOS Support 2.5.0 Release Notes
+---
+Updated: October, 23 2015
+- **[Add]** Support iOS 9.0+
+- **[Add]** Support Egret Engine 2.5.0+
+- **[Add]** Support Egret Nest SDK
+- **[Add]** Support parsing XML format
+- **[Fix]** Crash fix for exiting app
+- **[Fix]** Bug fix for localStorage module
+- **[Fix]** Bug fix for improving stability
+
 ### Egret iOS Support 2.0.4 Release Notes
 ---
 Updated: August, 14 2015
