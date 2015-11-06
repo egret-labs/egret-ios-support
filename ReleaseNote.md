@@ -1,6 +1,16 @@
 ##Egret iOS Support Release Notes
 ---
 
+### Egret iOS Support 2.5.4 Release Notes
+---
+Updated: November, 6 2015
+- **[Add]** Support snapshoting render texture
+- **[Add]** Support Egret Engine 2.5.4
+- **[Fix]** Bug fix for updating game version
+- **[Fix]** Bug fix for some matrix operation
+- **[Fix]** Bug fix for graphics
+- **[Fix]** Bug fix for improving stability
+
 ### Egret iOS Support 2.5.1 Release Notes
 ---
 Updated: October, 23 2015
