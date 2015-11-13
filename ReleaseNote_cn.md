@@ -1,6 +1,13 @@
 ##Egret iOS Support Release Notes 
 ---
 
+### Egret iOS Support 2.5.5 Release Notes
+---
+更新时间：2015年11月13日
+- **[新特性]** 新的输入框
+- **[修复]** 修复对过大RenderTexture截图错误
+- **[修复]** 增强稳定性
+
 ### Egret iOS Support 2.5.4 Release Notes
 ---
 更新时间: 2015年11月6日

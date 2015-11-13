@@ -1,6 +1,13 @@
 ##Egret iOS Support Release Notes
 ---
 
+### Egret iOS Support 2.5.5 Release Notes
+---
+Updated: November, 13 2015
+- **[Add]** New text field
+- **[Fix]** Bug fix for snapshoting a large render
+- **[Fix]** Bug fix for improving stability
+
 ### Egret iOS Support 2.5.4 Release Notes
 ---
 Updated: November, 6 2015
