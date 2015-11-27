@@ -1,6 +1,14 @@
 ##Egret iOS Support Release Notes
 ---
 
+### Egret iOS Support 2.5.6 Release Notes
+---
+Updated: November, 27 2015
+- **[Add]** Add multi-lines text view
+- **[Add]** Add a loading view in template project
+- **[Update]** Update view container
+- **[Fix]** Bug fix for improving stability
+
 ### Egret iOS Support 2.5.5 Release Notes
 ---
 Updated: November, 13 2015

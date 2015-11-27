@@ -1,6 +1,14 @@
 ##Egret iOS Support Release Notes 
 ---
 
+### Egret iOS Support 2.5.6 Release Notes
+---
+更新时间：2015年11月27日
+- **[新特性]** 加入多行输入框
+- **[新特性]** 加入进度条模块
+- **[改进]** 改进View的管理方式
+- **[修复]** 增强稳定性
+
 ### Egret iOS Support 2.5.5 Release Notes
 ---
 更新时间：2015年11月13日
@@ -27,7 +35,7 @@
 - **[新特性]** 添加Nest支持
 - **[修复]** 修复生命周期造成的crash
 - **[修复]** 修复localStorage相关BUG。
-- **[改进]** 增强稳定性。
+- **[修复]** 增强稳定性。
 
 ### Egret iOS Support 2.0.4 Release Notes
 ---
