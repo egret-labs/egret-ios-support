@@ -1,6 +1,14 @@
 ##Egret iOS Support Release Notes
 ---
 
+### Egret iOS Support 2.5.7 Release Notes
+---
+Updated: December, 11 2015
+- **[Add]** Add http request's onResponseHeader callback
+- **[Update]** Rewrite http request module
+- **[Fix]** Bug fix for taping text view without showing keyboard
+- **[Fix]** Bug fix for improving stability
+
 ### Egret iOS Support 2.5.6 Release Notes
 ---
 Updated: November, 27 2015
