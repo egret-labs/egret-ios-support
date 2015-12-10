@@ -7,6 +7,7 @@ Updated: December, 11 2015
 - **[Add]** Add http request's onResponseHeader callback
 - **[Update]** Rewrite http request module
 - **[Fix]** Bug fix for taping text view without showing keyboard
+- **[Fix]** Bug fix for drawing a circle
 - **[Fix]** Bug fix for improving stability
 
 ### Egret iOS Support 2.5.6 Release Notes
