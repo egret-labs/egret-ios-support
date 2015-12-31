@@ -1,6 +1,15 @@
 ##Egret iOS Support Release Notes 
 ---
 
+### Egret iOS Support 2.5.8 Release Notes
+---
+更新时间：2015年12月31日
+- **[新特性]** 添加定时器接口
+- **[新特性]** 添加Http POST请求发送ArrayBuffer数据
+- **[改进]** 重构ViewController模版
+- **[修复]** 修复字体错误
+- **[修复]** 增强稳定性修复
+
 ### Egret iOS Support 2.5.7 Release Notes
 ---
 更新时间：2015年12月11日

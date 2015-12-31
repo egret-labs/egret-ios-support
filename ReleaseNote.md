@@ -1,6 +1,15 @@
 ##Egret iOS Support Release Notes
 ---
 
+### Egret iOS Support 2.5.8 Release Notes
+---
+Updated: December, 31 2015
+- **[Add]** Support interval
+- **[Add]** Support http post ArrayBuffer data
+- **[Update]** Refactor ViewController template
+- **[Fix]** Bug fix for fonts
+- **[Fix]** Bug fix for imporving stability
+
 ### Egret iOS Support 2.5.7 Release Notes
 ---
 Updated: December, 11 2015
