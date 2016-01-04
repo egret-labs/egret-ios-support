@@ -1,9 +1,10 @@
 ##Egret iOS Support Release Notes 
 ---
 
-### Egret iOS Support 2.5.8 Release Notes
+### Egret iOS Support 3.0.0 Release Notes
 ---
 更新时间：2015年12月31日
+- **[注意]** 注意：此版本仅为了匹配Egret Engine 3.0的版本号，还未提供webgl支持。
 - **[新特性]** 添加定时器接口
 - **[新特性]** 添加Http POST请求发送ArrayBuffer数据
 - **[改进]** 重构ViewController模版

@@ -1,9 +1,10 @@
 ##Egret iOS Support Release Notes
 ---
 
-### Egret iOS Support 2.5.8 Release Notes
+### Egret iOS Support 3.0.0 Release Notes
 ---
 Updated: December, 31 2015
+- **[Note]** This release is only a match for the version for Egret Engine 3.0, not available for webgl.
 - **[Add]** Support interval
 - **[Add]** Support http post ArrayBuffer data
 - **[Update]** Refactor ViewController template
