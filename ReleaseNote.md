@@ -1,6 +1,15 @@
 ##Egret iOS Support Release Notes
 ---
 
+### Egret iOS Support 3.0.1 Release Notes
+---
+Updated: January, 12 2016
+- **[Note]** This release is only a match for the version for Egret Engine 3.0, not available for webgl.
+- **[Fix]** Crash fix for outOfRange of fonts
+- **[Fix]** Bug fix for rendering system fonts
+- **[Fix]** Bug fix for downloading file with "http" header
+- **[Fix]** Bug fix for improving stability
+
 ### Egret iOS Support 3.0.0 Release Notes
 ---
 Updated: December, 31 2015
@@ -9,7 +18,7 @@ Updated: December, 31 2015
 - **[Add]** Support http post ArrayBuffer data
 - **[Update]** Refactor ViewController template
 - **[Fix]** Bug fix for fonts
-- **[Fix]** Bug fix for imporving stability
+- **[Fix]** Bug fix for improving stability
 
 ### Egret iOS Support 2.5.7 Release Notes
 ---
