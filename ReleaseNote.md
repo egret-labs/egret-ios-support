@@ -1,6 +1,15 @@
 ##Egret iOS Support Release Notes
 ---
 
+### Egret iOS Support 3.0.3 Release Notes
+---
+Updated: February, 24 2016
+- **[Note]** This release is only a match for the version for Egret Engine 3.0, not available for webgl.
+- **[Fix]** Bug fix for setTimeOut.
+- **[Fix]** Bug fix for system font stoke.
+- **[Fix]** Bug fix for mask used with sharp.
+- **[Fix]** Bug fix for improving stability
+
 ### Egret iOS Support 3.0.1 Release Notes
 ---
 Updated: January, 12 2016
