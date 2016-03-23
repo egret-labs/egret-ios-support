@@ -1,6 +1,17 @@
 ##Egret iOS Support Release Notes
 ---
 
+### Egret iOS Support 3.0.5 Release Notes
+---
+Updated: March, 23 2016
+- **[Note]** This release is only a match for the version for Egret Engine 3.0, not available for webgl.
+- **[Update]** Improved stability.
+- **[Update]** Improved accuracy of Bezier rending.
+- **[Fix]** bugs on usage of Mask.
+- **[Fix]** irregular exceptions throwing.
+- **[Fix]** Fixed bugs.
+
+
 ### Egret iOS Support 3.0.4 Release Notes
 ---
 Updated: March, 09 2016
