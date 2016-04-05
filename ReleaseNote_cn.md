@@ -1,6 +1,16 @@
 ##Egret iOS Support Release Notes 
 ---
 
+### Egret iOS Support 3.0.6 Release Notes
+---
+更新时间：2016年04月05日
+- **[注意]** 注意：此版本仅为了匹配Egret Engine 3.0的版本号，还未提供webgl支持。
+- **[新特性]** 增加ProgressViewDelegate的协议接口。
+- **[新特性]** GameOption里增加背景色`OPTION_GAME_BACKGROUND`的选项。
+- **[改进]** 矢量绘图画线stroke的抗锯齿。
+- **[改进]** 提高稳定性。
+- **[修复]** 修复其它BUG
+
 ### Egret iOS Support 3.0.5 Release Notes
 ---
 更新时间：2016年03月23日

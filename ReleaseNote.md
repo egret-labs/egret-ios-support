@@ -1,6 +1,16 @@
 ##Egret iOS Support Release Notes
 ---
 
+### Egret iOS Support 3.0.6 Release Notes
+---
+Updated: April, 05 2016
+- **[Note]** This release is only a match for the version for Egret Engine 3.0, not available for webgl.
+- **[Add]** Add new protocol declare in ProgressViewDelegate. 
+- **[Add]** Add `OPTION_GAME_BACKGROUND` of GameOption.
+- **[Update]** Update anti-aliasing feature in stroke line. 
+- **[Update]** Improved stability.
+- **[Fix]** Fixed bugs.
+
 ### Egret iOS Support 3.0.5 Release Notes
 ---
 Updated: March, 23 2016
