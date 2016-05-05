@@ -1,6 +1,16 @@
 ##Egret iOS Support Release Notes 
 ---
 
+### Egret iOS Support 3.0.8 Release Notes
+---
+更新时间：2016年05月05日
+- **[注意]** 注意：此版本仅为了匹配Egret Engine 3.0的版本号，还未提供webgl支持。
+- **[修复]** 修复cacheAsBitmap时字体渲染错误以及透明度错误。
+- **[修复]** 纹理图片索引找不到时的容错处理。
+- **[修复]** ios support的egretRoot文件目录不再备份到iCloud.
+- **[改进]** 渲染模块字体相关的性能提升。
+- **[改进]** 提高稳定性。
+
 ### Egret iOS Support 3.0.7 Release Notes
 ---
 更新时间：2016年04月18日

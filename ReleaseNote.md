@@ -1,11 +1,21 @@
 ##Egret iOS Support Release Notes
 ---
 
+### Egret iOS Support 3.0.8 Release Notes
+---
+Updated: May, 05 2016
+- **[Note]** This release is only a match for the version for Egret Engine 3.0, not available for webgl.
+- **[Fix]** Fixed rendering error when a object is cached as bitmap.
+- **[Fix]** Crash fix for no texture data.
+- **[Fix]** No backup to iCloud for ios egretRoot folder.
+- **[Update]** Improve render performance of Font related.
+- **[Update]** Improved stability.
+
 ### Egret iOS Support 3.0.7 Release Notes
 ---
 Updated: April, 18 2016
 - **[Note]** This release is only a match for the version for Egret Engine 3.0, not available for webgl.
-- **[UPDATE]** Improve render performance of Texture related.
+- **[Update]** Improve render performance of Texture related.
 - **[Update]** Improved stability.
 - **[Fix]** Fixed bugs.
 
