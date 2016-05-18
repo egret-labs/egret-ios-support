@@ -1,6 +1,13 @@
 ##Egret iOS Support Release Notes
 ---
 
+### Egret iOS Support 3.1.0 Release Notes
+---
+Updated: May, 18 2016
+- **[Note]** This release is only a match for the version for Egret Engine 3.0, not available for webgl.
+- **[Fix]** Fix the bug that landscape mode doesn't work for iOS7. 
+- **[Update]** Improved stability.
+
 ### Egret iOS Support 3.0.8 Release Notes
 ---
 Updated: May, 05 2016
