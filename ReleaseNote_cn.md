@@ -1,6 +1,12 @@
 ##Egret iOS Support Release Notes 
 ---
 
+### Egret iOS Support 3.1.1 Release Notes
+---
+更新时间：2016年06月01日
+- **[注意]** 注意：此版本仅为了匹配Egret Engine 3.0的版本号，还未提供webgl支持。
+- **[改进]** 提高稳定性。
+
 ### Egret iOS Support 3.1.0 Release Notes
 ---
 更新时间：2016年05月18日
