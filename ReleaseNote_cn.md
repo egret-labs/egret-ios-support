@@ -1,6 +1,15 @@
 ##Egret iOS Support Release Notes 
 ---
 
+### Egret iOS Support 3.1.2 Release Notes
+---
+更新时间：2016年06月14日
+- **[注意]** 注意：此版本仅为了匹配Egret Engine 3.0的版本号，还未提供webgl支持。
+- **[改进]** ios新的文本输入方式。
+- **[改进]** 支持在egret游戏的网络zip包发布模式下解析自定义参数。
+- **[修复]** 修复在egret游戏的网络zip包发布模式下进不了游戏的bug.
+- **[改进]** 提高稳定性。
+
 ### Egret iOS Support 3.1.1 Release Notes
 ---
 更新时间：2016年06月01日
