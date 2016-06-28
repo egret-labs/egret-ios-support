@@ -1,6 +1,15 @@
 ##Egret iOS Support Release Notes
 ---
 
+### Egret iOS Support 3.1.3 Release Notes
+---
+Updated: June, 27 2016
+- **[Note]** This release is only a match for the version for Egret Engine 3.0, not available for webgl.
+- **[Add]** support local and network Video playback. 
+- **[Update]** Supported for parsing custom params in publishing Egret game's zip package over Internet.
+- **[Fix]** Fixed the bug of loading Egret game's zip package. 
+- **[Update]** Improved stability.
+
 ### Egret iOS Support 3.1.2 Release Notes
 ---
 Updated: June, 14 2016
