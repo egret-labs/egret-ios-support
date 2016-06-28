@@ -6,6 +6,7 @@
 Updated: June, 28 2016
 - **[Note]** This release is only a match for the version for Egret Engine 3.0, not available for webgl.
 - **[Add]** Supported local and remote video playback. 
+- **[Add]** Supported IPv6 network. 
 - **[Update]** Supported egret game for iOS custom loading bar.
 - **[Fix]** Fixed crash that caused by characters replacing in EUI label. 
 - **[Update]** Improved stability.
