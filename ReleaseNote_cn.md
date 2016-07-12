@@ -1,6 +1,15 @@
 ##Egret iOS Support Release Notes 
 ---
 
+### Egret iOS Support 3.1.4 Release Notes
+---
+更新时间：2016年07月12日
+- **[注意]** 注意：此版本仅为了匹配Egret Engine 3.0的版本号，还未提供webgl支持。
+- **[新特性]** 获取原生设备的电池电量信息。
+- **[修复]** 修复iOS下场景有缩放时输入框位置偏移的问题。
+- **[修复]** 修复iOS输入框中的提示文字不能正常消失的问题。
+- **[改进]** 提高稳定性。
+
 ### Egret iOS Support 3.1.3 Release Notes
 ---
 更新时间：2016年06月28日

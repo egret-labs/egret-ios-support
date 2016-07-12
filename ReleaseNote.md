@@ -1,6 +1,15 @@
 ##Egret iOS Support Release Notes
 ---
 
+### Egret iOS Support 3.1.4 Release Notes
+---
+Updated: June, 28 2016
+- **[Note]** This release is only a match for the version for Egret Engine 3.0, not available for webgl.
+- **[Add]** Get battery info of device.
+- **[Fix]** Fixed the prompt text of inputField in iOS can't disappear correctly.
+- **[Fix]** Fixed inputField is offset when the scene is scaled in iOS.
+- **[Update]** Improved stability.
+
 ### Egret iOS Support 3.1.3 Release Notes
 ---
 Updated: June, 28 2016
