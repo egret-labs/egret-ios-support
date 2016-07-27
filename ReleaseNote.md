@@ -1,9 +1,17 @@
 ##Egret iOS Support Release Notes
 ---
 
+### Egret iOS Support 3.1.5 Release Notes
+---
+Updated: July, 27 2016
+- **[Fix]** Length of text in Input Field in iOS can be limited when editting
+- **[Fix]** Sound process in iOS is same to Android. Complete interfaces of sound event.
+- **[Fix]** Fixed position of Input Field is error on non-retina screen in iOS
+- **[Fix]** Fixed crash when switching between iOS UIView
+
 ### Egret iOS Support 3.1.4 Release Notes
 ---
-Updated: June, 28 2016
+Updated: July, 12 2016
 - **[Note]** This release is only a match for the version for Egret Engine 3.0, not available for webgl.
 - **[Add]** Get battery info of device.
 - **[Fix]** Fixed the prompt text of inputField in iOS can't disappear correctly.

@@ -1,6 +1,14 @@
 ##Egret iOS Support Release Notes 
 ---
 
+### Egret iOS Support 3.1.5 Release Notes
+---
+更新时间：2016年07月27日
+- **[修复]** iOS输入框可以限制在输入过程中的长度。
+- **[修复]** iOS声音机制和Android保持一致，补全声音事件的绑定接口。
+- **[修复]** iOS下非retina屏幕输入框位置错误的问题。
+- **[修复]** iOS UIView切换崩溃的问题。
+
 ### Egret iOS Support 3.1.4 Release Notes
 ---
 更新时间：2016年07月12日
