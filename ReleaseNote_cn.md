@@ -1,13 +1,23 @@
 ##Egret iOS Support Release Notes 
 ---
 
+### Egret iOS Support 3.1.6 Release Notes
+---
+更新时间：2016年08月09日
+- **[注意]** 注意：此版本仅为了匹配Egret Engine 3.0的版本号，还未提供webgl支持。
+- **[修复]** 修复多个音效同时播放发生卡顿的问题。
+- **[改进]** 比对文件时不显示进度条。
+- **[改进]** 提高稳定性。
+
 ### Egret iOS Support 3.1.5 Release Notes
 ---
 更新时间：2016年07月27日
+- **[注意]** 注意：此版本仅为了匹配Egret Engine 3.0的版本号，还未提供webgl支持。
 - **[修复]** iOS输入框可以限制在输入过程中的长度。
 - **[修复]** iOS声音机制和Android保持一致，补全声音事件的绑定接口。
 - **[修复]** iOS下非retina屏幕输入框位置错误的问题。
 - **[修复]** iOS UIView切换崩溃的问题。
+- **[改进]** 提高稳定性。
 
 ### Egret iOS Support 3.1.4 Release Notes
 ---
