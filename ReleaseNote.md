@@ -3,6 +3,19 @@
 
 ### Egret iOS Support 3.1.6 Release Notes
 ---
+Updated: August, 25 2016
+- **[Fixed]** Fixed crash on setting illegal value of color.
+- **[Fixed]** Fixed start the game at the first time must be a hot update.
+- **[Fixed]** Fixed the color of font stroke display unusually.
+- **[Fixed]** Complete audio playback events.
+- **[Fixed]** Fixed cannot modify the volume during playback.
+- **[Update]** The progress bar is no longer displayed when compared to a hot update file.
+- **[Update]** The last updated game package will be started when the hot update address does not exist.
+- **[Add]** Support italic text.
+- **[Add]** Add ColorTransform filter.
+
+### Egret iOS Support 3.1.6 Release Notes
+---
 Updated: August, 09 2016
 - **[Note]** This release is only a match for the version for Egret Engine 3.0, not available for webgl.
 - **[Fix]** Fixed lag problem when multi sound effect are simultaneously playing.
