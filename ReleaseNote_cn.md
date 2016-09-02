@@ -1,6 +1,13 @@
 ##Egret iOS Support Release Notes 
 ---
 
+### Egret iOS Support 3.1.8 Release Notes
+---
+更新时间：2016年09月02日
+- **[修复]** 修复声音停止后不能再次播放的问题。
+- **[改进]** 热更新时自动对比本地游戏包名。
+- **[改进]** 提高稳定性。
+
 ### Egret iOS Support 3.1.7 Release Notes
 ---
 更新时间：2016年08月25日
@@ -13,6 +20,7 @@
 - **[改进]** 热更新地址不存在时启动最后一次更新的游戏包。
 - **[新特性]** 支持斜体文本。
 - **[新特性]** 添加ColorTransform滤镜。
+- **[改进]** 提高稳定性。
 
 ### Egret iOS Support 3.1.6 Release Notes
 ---

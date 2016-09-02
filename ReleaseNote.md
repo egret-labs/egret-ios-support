@@ -1,18 +1,26 @@
 ##Egret iOS Support Release Notes
 ---
 
-### Egret iOS Support 3.1.6 Release Notes
+### Egret iOS Support 3.1.8 Release Notes
+---
+Updated: September, 02 2016
+- **[Fix]** Fixed sound can not be played again if it has been stopped.
+- **[Update]** Automatic contrast local game package name during hot update.
+- **[Update]** Improved stability.
+
+### Egret iOS Support 3.1.7 Release Notes
 ---
 Updated: August, 25 2016
-- **[Fixed]** Fixed crash on setting illegal value of color.
-- **[Fixed]** Fixed start the game at the first time must be a hot update.
-- **[Fixed]** Fixed the color of font stroke display unusually.
-- **[Fixed]** Complete audio playback events.
-- **[Fixed]** Fixed cannot modify the volume during playback.
+- **[Fix]** Fixed crash on setting illegal value of color.
+- **[Fix]** Fixed start the game at the first time must be a hot update.
+- **[Fix]** Fixed the color of font stroke display unusually.
+- **[Fix]** Complete audio playback events.
+- **[Fix]** Fixed cannot modify the volume during playback.
 - **[Update]** The progress bar is no longer displayed when compared to a hot update file.
 - **[Update]** The last updated game package will be started when the hot update address does not exist.
 - **[Add]** Support italic text.
 - **[Add]** Add ColorTransform filter.
+- **[Update]** Improved stability.
 
 ### Egret iOS Support 3.1.6 Release Notes
 ---
