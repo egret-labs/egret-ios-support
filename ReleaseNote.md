@@ -1,9 +1,20 @@
 ##Egret iOS Support Release Notes
 ---
 
+### Egret iOS Support 3.2.0 Release Notes
+---
+Updated: September, 27 2016
+- **[Note]** This release is only a match for the version for Egret Engine 3.0, not available for webgl.
+- **[Note]** This release optimized efficiency of rendering, if exception occurred when rendering, please close the optimization.
+- **[Add]** Supported filter rendering.
+- **[Add]** Supported mesh rendering.
+- **[Update]** Improved efficiency of the scene rendering.
+- **[Update]** Improved stability.
+
 ### Egret iOS Support 3.1.8 Release Notes
 ---
 Updated: September, 02 2016
+- **[Note]** This release is only a match for the version for Egret Engine 3.0, not available for webgl.
 - **[Fix]** Fixed sound can not be played again if it has been stopped.
 - **[Update]** Automatic contrast local game package name during hot update.
 - **[Update]** Improved stability.
@@ -11,6 +22,7 @@ Updated: September, 02 2016
 ### Egret iOS Support 3.1.7 Release Notes
 ---
 Updated: August, 25 2016
+- **[Note]** This release is only a match for the version for Egret Engine 3.0, not available for webgl.
 - **[Fix]** Fixed crash on setting illegal value of color.
 - **[Fix]** Fixed start the game at the first time must be a hot update.
 - **[Fix]** Fixed the color of font stroke display unusually.
