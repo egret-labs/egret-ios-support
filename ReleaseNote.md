@@ -1,6 +1,18 @@
 ##Egret iOS Support Release Notes
 ---
 
+### Egret iOS Support 3.2.2 Release Notes
+---
+Updated: November 01, 2016
+- **[Note]** This release is only a match for the version for Egret Engine 3.0, not available for webgl.
+- **[Fix]** Fixed rendering problems under specific cases.
+- **[Fix]** Fixed game blocks caused by playing certain audios in v3.2.1.
+- **[Fix]** Fixed input box with prompt text shows wrong text when editting it.
+- **[Fix]** Fixed setting layout did not work on input box.
+- **[Update]** Add a switch to optimize rendering efficiency(details: http://developer.egret.com/cn/github/egret-docs/Engine2D/native/other/index.html ).
+- **[Update]** The last updated game package will be started when the hot update address does not exist.
+- **[Update]** Improved stability.
+
 ### Egret iOS Support 3.2.1 Release Notes
 ---
 Updated: October 18, 2016
