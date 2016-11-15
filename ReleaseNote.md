@@ -1,6 +1,13 @@
 ##Egret iOS Support Release Notes
 ---
 
+### Egret iOS Support 3.2.3 Release Notes
+---
+Updated: November 15, 2016
+- **[Note]** This release is only a match for the version for Egret Engine 3.0, not available for webgl.
+- **[Fix]** Support filter in the situation that cmdBatch is shut down.
+- **[Update]** Improved stability.
+
 ### Egret iOS Support 3.2.2 Release Notes
 ---
 Updated: November 01, 2016
