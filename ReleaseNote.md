@@ -1,6 +1,19 @@
 ##Egret iOS Support Release Notes
 ---
 
+### Egret iOS Support 3.2.4 Release Notes
+---
+Updated: November 29, 2016
+- **[Note]** This release is only a match for the version for Egret Engine 3.0, not available for webgl.
+- **[Fix]** Fixed setting volume of audios sometimes invalid.
+- **[Fix]** Fixed rendering of filters.
+- **[Fix]** Override the hot update logic, consider the network disconnect and other cases.
+- **[Fix]** Fixed saveToFile is not working.
+- **[Add]** Added optimization switch for rendering textures.
+- **[Add]** Support transparent background.
+- **[Add]** Support play audios when system is mute.
+- **[Update]** Improved stability.
+
 ### Egret iOS Support 3.2.3 Release Notes
 ---
 Updated: November 15, 2016
