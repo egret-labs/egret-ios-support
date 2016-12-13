@@ -1,6 +1,14 @@
 ##Egret iOS Support Release Notes
 ---
 
+### Egret iOS Support 3.2.5 Release Notes
+---
+Updated: December 13, 2016
+- **[Note]** This release is only a match for the version for Egret Engine 3.0, not available for webgl.
+- **[Fix]** Fixed game could not start in some cases appeared in 3.2.4.
+- **[Fix]** Fixed TypedArray could not be used regularly in the version with JavaScriptCore in system.
+- **[Update]** Improved stability.
+
 ### Egret iOS Support 3.2.4 Release Notes
 ---
 Updated: November 29, 2016
