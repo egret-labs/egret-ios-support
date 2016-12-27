@@ -1,6 +1,27 @@
 ##Egret iOS Support Release Notes
 ---
 
+### Egret iOS Support 3.2.6 Release Notes
+---
+Updated: December 27, 2016
+- **[Note]** This release is only a match for the version for Egret Engine 3.0, not available for webgl.
+- **[Update]** Add template for custom hot-update methods.
+- **[Fix]** Fixed setting customLoadingFlag will cause start problems.
+- **[Fix]** Fixed multi-line input box could not type Chinese characters.
+- **[Fix]** Fixed screenshot could not be saved on mobile phone.
+- **[Fix]** Fixed screenshot will be scaling on Retina devices.
+- **[Fix]** Fixed Xml strings would not be parsed if there is some illegal characters in them.
+- **[Fix]** Fixed audios could not play if the application enters background and then enters foreground.
+- **[Update]** Improved stability.
+
+### Egret iOS Support 3.2.5 Release Notes
+---
+Updated: December 13, 2016
+- **[Note]** This release is only a match for the version for Egret Engine 3.0, not available for webgl.
+- **[Fix]** Fixed game could not start in some cases appeared in 3.2.4.
+- **[Fix]** Fixed TypedArray could not be used regularly in the version with JavaScriptCore in system.
+- **[Update]** Improved stability.
+
 ### Egret iOS Support 3.2.4 Release Notes
 ---
 Updated: November 29, 2016
