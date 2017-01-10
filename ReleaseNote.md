@@ -1,6 +1,16 @@
 ##Egret iOS Support Release Notes
 ---
 
+### Egret iOS Support 4.0.0 Release Notes
+---
+Updated: January 10, 2017
+- **[Update]** Add callback for failure of hot-update(see more if onGameLoadingError methods in LoadingView.m).
+- **[Fix]** Fixed audios would not play continuously after receiving a phone call.
+- **[Fix]** Fixed setting customLoadingFlag is not valid.
+- **[Fix]** Edit template for custom hot-update methods, set old version of hot-update as default.
+- **[Fix]** Fixed game version record would be updated even if hot-update is not finished successfully.
+- **[Update]** Improved stability.
+
 ### Egret iOS Support 3.2.6 Release Notes
 ---
 Updated: December 27, 2016

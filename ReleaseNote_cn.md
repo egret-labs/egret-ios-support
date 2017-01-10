@@ -1,6 +1,16 @@
 ##Egret iOS Support Release Notes 
 ---
 
+### Egret iOS Support 4.0.0 Release Notes
+---
+更新时间：2017年01月10日
+- **[改进]** 添加热更新失败的回调（参照LoadingView.m的onGameLoadingError方法）。
+- **[修复]** 修复游戏过程中来电话导致音频不能继续播放的问题。
+- **[修复]** 修复设置customLoading无效的问题。
+- **[修复]** 修改自定义热更新的模版，默认以旧版本的方式启动。
+- **[修复]** 修复热更新失败后仍然会更新版本信息的问题。
+- **[改进]** 提高稳定性。
+
 ### Egret iOS Support 3.2.6 Release Notes
 ---
 更新时间：2016年12月27日
