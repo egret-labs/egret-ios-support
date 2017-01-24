@@ -1,6 +1,20 @@
 ##Egret iOS Support Release Notes
 ---
 
+### Egret iOS Support 4.0.1 Release Notes
+---
+Updated: January 24, 2017
+- **[Add]** Added image picker feature(Please refer to the Developer Center to get instructions).
+- **[Add]** Support for converting ArrayBuffer or Base64 to textures(Please refer to the Developer Center to get instructions).
+- **[Fix]** Fixed setting the transparency of the vector illustration is invaild after opening CmdBatch.
+- **[Fix]** Fixed issues related to hot update.
+- **[Fix]** Fixed the filter shader can not be compiled on some phone models.
+- **[Fix]** Fixed XML sometimes can not be parsed.
+- **[Fix]** Fixed WebSocket out of order while receiving multiple message at the same time.
+- **[Fix]** Can not respond to incoming calls after entering the background.
+- **[Update]** Some third-party libraries are no longer in libEgretLib.a, to prevent method name conflict when developers are using these libraries in the native code.
+- **[Update]** Improved stability.
+
 ### Egret iOS Support 4.0.0 Release Notes
 ---
 Updated: January 10, 2017
