@@ -1,6 +1,12 @@
 ##Egret iOS Support Release Notes 
 ---
 
+### Egret iOS Support 4.0.2 Release Notes
+---
+更新时间：2017年02月22日
+- **[修复]** 修复iOS下xml2json API的换行转义错误。
+- **[改进]** 提高稳定性。
+
 ### Egret iOS Support 4.0.1 Release Notes
 ---
 更新时间：2017年01月24日

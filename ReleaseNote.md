@@ -1,6 +1,12 @@
 ##Egret iOS Support Release Notes
 ---
 
+### Egret iOS Support 4.0.2 Release Notes
+---
+Updated: February 22, 2017
+- **[Fix]** Fixed linefeed escape error occurred in xml2json API.
+- **[Update]** Improved stability.
+
 ### Egret iOS Support 4.0.1 Release Notes
 ---
 Updated: January 24, 2017
