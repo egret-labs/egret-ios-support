@@ -5,6 +5,7 @@
 ---
 Updated: February 22, 2017
 - **[Fix]** Fixed linefeed escape error occurred in xml2json API.
+- **[Fix]** Fixed the issue of sending a message in some cases.
 - **[Update]** Improved stability.
 
 ### Egret iOS Support 4.0.1 Release Notes

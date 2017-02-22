@@ -5,6 +5,7 @@
 ---
 更新时间：2017年02月22日
 - **[修复]** 修复iOS下xml2json API的换行转义错误。
+- **[修复]** 修复webSocket在部分情况下发送消息失败的问题。
 - **[改进]** 提高稳定性。
 
 ### Egret iOS Support 4.0.1 Release Notes
