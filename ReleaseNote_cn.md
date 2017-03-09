@@ -1,6 +1,13 @@
 ##Egret iOS Support Release Notes 
 ---
 
+### Egret iOS Support 4.0.3 Release Notes
+---
+更新时间：2017年03月08日
+- **[修复]** 修复EgretRuntime initWithRect接口会改变EAGLView的位置的问题。
+- **[修复]** 修复drawToTexture接口保存的图片在部分情况下渲染出错的问题。
+- **[改进]** 提高稳定性。
+
 ### Egret iOS Support 4.0.2 Release Notes
 ---
 更新时间：2017年02月22日

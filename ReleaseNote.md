@@ -1,6 +1,13 @@
 ##Egret iOS Support Release Notes
 ---
 
+### Egret iOS Support 4.0.3 Release Notes
+---
+Updated: March 08, 2017
+- **[Fix]** Fixed the EgretRuntime initWithRect interface would change the location of EAGLView.
+- **[Fix]** Fixed the images saved by the drawToTexture interface would be partially rendered incorrectly.
+- **[Update]** Improved stability.
+
 ### Egret iOS Support 4.0.2 Release Notes
 ---
 Updated: February 22, 2017
