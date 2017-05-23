@@ -1,6 +1,20 @@
 ##Egret iOS Support Release Notes
 ---
 
+### Egret iOS Support 4.1.0 Release Notes
+---
+Updated: May 23, 2017
+- **[Fix]** Fixed connecting to certain types of servers with webSocket failed or easy to break.
+- **[Fix]** The default vertical alignment of the input box is the same as H5.
+- **[Fix]** Fixed part of the scene rendering error problem after open optimization.
+- **[Fix]** Fixed the file will still be created after download the resource failed.
+- **[Fix]** Fixed setting custom fonts is invalid.
+- **[Fix]** Fixed drop-down notification column sometimes causes the click event to be invalid.
+- **[Fix]** Fixed getting the length information of audio before it plays will cause flashback.
+- **[Fix]** Fixed using third-party rendering libraries will cause flashback.
+- **[Fix]** Fixed using voice input on some models will cause flashback.
+- **[Update]** Improved stability.
+
 ### Egret iOS Support 4.0.3 Release Notes
 ---
 Updated: March 08, 2017
