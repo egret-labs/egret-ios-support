@@ -1,6 +1,16 @@
 ##Egret iOS Support Release Notes
 ---
 
+### Egret iOS Support 5.0.1 Release Notes
+---
+Updated: June 29, 2017
+- **[Fix]** Fixed httpRequest may not get the correct return value.
+- **[Fix]** Fixed files with long names cannot be downloaded.
+- **[Fix]** Fixed mesh rendering is invisible.
+- **[Fix]** Fixed call drawToTexture may be given an error.
+- **[Update]** Automatically close the webSocket after network broken or switch the network environment.
+- **[Update]** Improved stability.
+
 ### Egret iOS Support 4.1.0 Release Notes
 ---
 Updated: May 23, 2017
