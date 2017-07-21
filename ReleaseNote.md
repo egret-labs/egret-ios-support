@@ -1,6 +1,12 @@
 ##Egret iOS Support Release Notes
 ---
 
+### Egret iOS Support 5.0.3 Release Notes
+---
+Updated: July 21, 2017
+- **[Fix]** Fixed webSocket cannot connect to the WSS server.
+- **[Update]** Improved stability.
+
 ### Egret iOS Support 5.0.1 Release Notes
 ---
 Updated: June 29, 2017
