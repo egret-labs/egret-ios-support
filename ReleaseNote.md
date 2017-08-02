@@ -1,6 +1,13 @@
 ##Egret iOS Support Release Notes
 ---
 
+### Egret iOS Support 5.0.5 Release Notes
+---
+Updated: August 02, 2017
+- **[Fix]** Fixed setting the vertical layout and the color of EUI input box is invalid.
+- **[Fix]** Fixed bug in version 5.0.3 that application has probability of flashing at non-first start.
+- **[Update]** Improved stability.
+
 ### Egret iOS Support 5.0.3 Release Notes
 ---
 Updated: July 21, 2017
