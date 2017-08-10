@@ -1,6 +1,29 @@
 ##Egret iOS Support Release Notes 
 ---
 
+### Egret iOS Support 5.0.5 Release Notes
+---
+更新时间：2017年08月04日
+- **[修复]** 修复EUI输入框设置垂直布局和颜色无效的问题。
+- **[修复]** 修复5.0.3中出现的非第一次启动有概率闪退的问题。
+- **[改进]** 提高稳定性。
+
+### Egret iOS Support 5.0.3 Release Notes
+---
+更新时间：2017年07月21日
+- **[修复]** 修复webSocket不能连接到wss服务器的问题。
+- **[改进]** 提高稳定性。
+
+### Egret iOS Support 5.0.1 Release Notes
+---
+更新时间：2017年06月29日
+- **[修复]** 修复HttpRequest可能得不到正确返回值的问题。
+- **[修复]** 修复不能下载名字过长的文件的问题。
+- **[修复]** 修复mesh绘制不出来的问题。
+- **[修复]** 修复drawToTexture可能报错的问题。
+- **[改进]** 断网或者切换网络环境时主动关闭webSocket。
+- **[改进]** 提高稳定性。
+
 ### Egret iOS Support 4.1.0 Release Notes
 ---
 更新时间：2017年05月23日

@@ -1,6 +1,29 @@
 ##Egret iOS Support Release Notes
 ---
 
+### Egret iOS Support 5.0.5 Release Notes
+---
+Updated: August 04, 2017
+- **[Fix]** Fixed setting the vertical layout and the color of EUI input box is invalid.
+- **[Fix]** Fixed bug in version 5.0.3 that application has probability of flashing at non-first start.
+- **[Update]** Improved stability.
+
+### Egret iOS Support 5.0.3 Release Notes
+---
+Updated: July 21, 2017
+- **[Fix]** Fixed webSocket cannot connect to the WSS server.
+- **[Update]** Improved stability.
+
+### Egret iOS Support 5.0.1 Release Notes
+---
+Updated: June 29, 2017
+- **[Fix]** Fixed httpRequest may not get the correct return value.
+- **[Fix]** Fixed files with long names cannot be downloaded.
+- **[Fix]** Fixed mesh rendering is invisible.
+- **[Fix]** Fixed call drawToTexture may be given an error.
+- **[Update]** Automatically close the webSocket after network broken or switch the network environment.
+- **[Update]** Improved stability.
+
 ### Egret iOS Support 4.1.0 Release Notes
 ---
 Updated: May 23, 2017
