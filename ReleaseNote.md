@@ -1,6 +1,14 @@
 ##Egret iOS Support Release Notes
 ---
 
+### Egret iOS Support 5.0.7 Release Notes
+---
+Updated: September 05, 2017
+- **[Fix]** Fixed parts of variables are not released after calling destroyEgretRuntime.
+- **[Fix]** Fixed memory leaks due to js strings created by support are not released.
+- **[Fix]** Fixed the alpha value of color matrix filter is incorrect in version 5.0.6. 
+- **[Update]** Improved stability.
+
 ### Egret iOS Support 5.0.6 Release Notes
 ---
 Updated: August 22, 2017
