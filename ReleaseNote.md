@@ -1,6 +1,15 @@
 ##Egret iOS Support Release Notes
 ---
 
+### Egret iOS Support 5.0.8 Release Notes
+---
+Updated: September 19, 2017
+- **[Fix]** Fixed webSocket cannot connect to parts of WSS servers.
+- **[Update]** Increase the speed of connection to webSocket servers.
+- **[Update]** Allow setting protocols of webSocket.
+- **[Update]** Support multiple parameters for console methods such as conole.log.
+- **[Update]** Improved stability.
+
 ### Egret iOS Support 5.0.7 Release Notes
 ---
 Updated: September 05, 2017
