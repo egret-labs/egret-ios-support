@@ -1,6 +1,12 @@
 ##Egret iOS Support Release Notes
 ---
 
+### Egret iOS Support 5.0.9 Release Notes
+---
+Updated: October 12, 2017
+- **[Fix]** Optimize WebSocket, fixed fail to receive the onClose event after some webSocket connections disconnected  while locking the screen.
+- **[Update]** Improved stability.
+
 ### Egret iOS Support 5.0.8 Release Notes
 ---
 Updated: September 19, 2017

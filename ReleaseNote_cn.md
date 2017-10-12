@@ -1,6 +1,12 @@
 ##Egret iOS Support Release Notes 
 ---
 
+### Egret iOS Support 5.0.9 Release Notes
+---
+更新时间：2017年10月12日
+- **[修复]** 优化WebSocket，解决锁屏时部分webSocket连接断开但是不能收到onClose事件的问题。
+- **[改进]** 提高稳定性。
+
 ### Egret iOS Support 5.0.8 Release Notes
 ---
 更新时间：2017年09月19日
