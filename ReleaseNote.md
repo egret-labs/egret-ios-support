@@ -1,6 +1,13 @@
 ##Egret iOS Support Release Notes
 ---
 
+### Egret iOS Support 5.0.12 Release Notes
+---
+Updated: November 09, 2017
+- **[Fix]** Fixed black screen bug on CN devices.
+- **[Fix]** Fixed memory leaking caused by analyzing exml files.
+- **[Update]** Improved stability.
+
 ### Egret iOS Support 5.0.9 Release Notes
 ---
 Updated: October 12, 2017
